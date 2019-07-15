@@ -9,6 +9,8 @@ public class MyTimeline : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
         playableDirector = GetComponent<PlayableDirector>();
+        playableDirector.Play();
     }
 }
